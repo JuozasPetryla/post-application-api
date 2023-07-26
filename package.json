@@ -1,6 +1,27 @@
 {
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "sqlite3": "^5.1.6"
-  }
+    "node": "^18.16.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "posts-application-api",
+  "description": "This is a template repository for your projects. Use this template when starting a new repository. This template can be used for Linux and Web positions in the academy.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://84.15.161.187/juopet/posts-application-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
